@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+    <addon id="rekony.repository" name="Rekony Repository" version="0.0.1" provider-name="rekony">
+        <extension point="xbmc.addon.repository" name="Rekony Repository">
+            <info compressed="false">https://raw.githubusercontent.com/rekony/rekony.repository/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/rekony/rekony.repository/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/rekony/rekony.repository/master/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Rekony Kodi Add-ons</summary>
+            <description>Add-ons for Kodi</description>
+            <disclaimer></disclaimer>
+            <platform>all</platform>
+        </extension>
+    </addon>
     <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.5.1" provider-name="doko">
         <requires>
             <!-- <import addon="xbmc.python" version="3.0.0" /> -->
